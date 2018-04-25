@@ -1,0 +1,21 @@
+<!--author: Alfredo Sánchez Alberca (asalber@ceu.es) -->
+
+<!DOCTYPE rkplugin>
+<document>
+	<code file="homework.js"/>
+	<help file="homework.rkh"/>
+	
+	<dialog label="Tennis elbow data set generation">
+		<input id="dni" label="Inter the DNI or the Passport number without letters"/>
+	</dialog>
+	
+	<wizard label="Tennis elbow data set generation wizard">
+		<page id="pag_vars">
+			<text>
+				Enter the DNI or the Passport number without letters. 
+				After sending the data set will be generated in the Workspace. 
+			</text>
+			<copy id="dni" />
+		</page>
+	</wizard>
+</document>

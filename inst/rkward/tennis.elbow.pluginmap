@@ -1,0 +1,22 @@
+<!-- author: Alfredo Sánchez Alberca (asalber@ceu.es) -->
+<!DOCTYPE rkpluginmap>
+<document namespace="rkTeaching">
+	<about 
+		name="tennis.elbow"
+		shortinfo="Data set of patiens with a tennis elbow injury."
+		longinfo="Data set of patients with a tennis elbow injury and the treatment applied."
+		version="0.01"
+		releasedate="2016-05-01"
+		url="http://aprendeconalf.es"
+		license="GPL (&gt;= 3)"
+	>
+		<author 
+			given="Alfredo"
+			family="Sánchez Alberca"
+			email="asalber@ceu.es"
+			role="aut, cre"
+		 />
+	</about>
+	<dependencies rkward_min_version="0.6.1" />
+	<require file="plugins/homework.pluginmap"/>
+</document>

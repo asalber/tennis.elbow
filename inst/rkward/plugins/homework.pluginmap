@@ -1,0 +1,15 @@
+<!-- author: Alfredo Sánchez Alberca (asalber@ceu.es) -->
+<!DOCTYPE rkpluginmap>
+<document base_prefix="" namespace="rkTeaching" id="homeworkpluginmap">
+	<components>
+		<component type="standard" id="homework" file="homework.xml" label="Generate data" />
+	</components>
+	
+	<hierarchy>
+		<menu id="teaching" label="Teaching">
+			<menu id="homeworkmenu" label="Homework">
+				<entry component="homework"/>
+			</menu>
+		</menu>
+	</hierarchy>
+</document>
