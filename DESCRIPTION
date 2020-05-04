@@ -6,7 +6,7 @@ Version: 1.0
 Date: 2018-10-01
 Author: Alfredo Sánchez Alberca <asalber@ceu.es>
 Maintainer: Alfredo Sánchez Alberca <asalber@ceu.es>
-Depends: rk.Teaching, rkward (>= 0.7.0)
+Depends: rk.Teaching
 Enhances: rkward
 Description: Data set of the treatment of the tennis elbow injury.
 License: GPL (>= 3)
