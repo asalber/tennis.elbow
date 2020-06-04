@@ -8,7 +8,7 @@ function preprocess(){
 function calculate () {
 	dni = getString("dni");
 	echo('data(tennis.elbow, package="tennis.elbow")\n');
-	echo('set.seed(' + dni + '1)\n');
+	echo('set.seed(' + dni + '3)\n');
         echo('tennis.elbow$Age <- tennis.elbow$Age + round(rnorm(length(tennis.elbow$Pain.Relief.Max),0,1))\n');
 	echo('tennis.elbow$Pain.Relief.Max <- tennis.elbow$Pain.Relief.Max + round(rnorm(length(tennis.elbow$Pain.Relief.Max),0,0.25))\n');
         echo('tennis.elbow$Pain.Relief.12h <- tennis.elbow$Pain.Relief.12h + round(rnorm(length(tennis.elbow$Pain.Relief.12h),0,0.25))\n');

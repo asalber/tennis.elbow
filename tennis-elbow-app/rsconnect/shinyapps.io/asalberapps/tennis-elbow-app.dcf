@@ -5,8 +5,8 @@ account: asalberapps
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2225025
-bundleId: 3093006
+bundleId: 3228386
 url: https://asalberapps.shinyapps.io/tennis-elbow-app/
-when: 1588402542.87026
+when: 1591281708.80068
 asMultiple: FALSE
 asStatic: FALSE
