@@ -6,7 +6,7 @@
 	<help file="homework.rkh"/>
 	
 	<dialog label="Tennis elbow data set generation">
-		<input id="dni" label="Inter the DNI or the Passport number without letters"/>
+		<input id="dni" label="Enter the DNI or the Passport number without letters"/>
 	</dialog>
 	
 	<wizard label="Tennis elbow data set generation wizard">
