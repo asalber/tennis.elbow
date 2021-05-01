@@ -19,7 +19,7 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
 server <- function(input, output) {
     newdata <- eventReactive(input$generateData, {
         load("data/tennis.elbow.RData")
-        set.seed(paste0(input$id, '3'))
+        set.seed(paste0(input$id, '4'))
         tennis.elbow$Age <- tennis.elbow$Age + round(rnorm(length(tennis.elbow$Pain.Relief.Max), 0, 1))
         tennis.elbow$Pain.Relief.Max <- tennis.elbow$Pain.Relief.Max + round(rnorm(length(tennis.elbow$Pain.Relief.Max), 0, 0.25))
         tennis.elbow$Pain.Relief.12h <- tennis.elbow$Pain.Relief.12h + round(rnorm(length(tennis.elbow$Pain.Relief.12h), 0, 0.25))
