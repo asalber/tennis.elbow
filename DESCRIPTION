@@ -1,14 +1,14 @@
 Encoding: UTF-8
 Package: tennis.elbow
 Type: Package
-Title: Tennis elbow injury data set.
+Title: Tennis elbow injury data set
 Version: 1.0
 Date: 2018-10-01
 Author: Alfredo Sánchez Alberca <asalber@ceu.es>
 Maintainer: Alfredo Sánchez Alberca <asalber@ceu.es>
-Depends: rkTeaching
 Enhances: rkward
 Description: Data set of the treatment of the tennis elbow injury.
 License: GPL (>= 3)
 LazyLoad: yes
 LazyData: yes
+RoxygenNote: 7.1.2

@@ -1,5 +1,0 @@
-{
-  "name": "tennis-elbow"
-, "files": [ { "directory": ".", "filters": ["*.R", "*.rdata", "*.Rd", "*.RData"], 
-"recursive": 1 } ]
-} 
