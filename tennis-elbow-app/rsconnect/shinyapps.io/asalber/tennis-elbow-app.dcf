@@ -1,0 +1,12 @@
+name: tennis-elbow-app
+title: tennis-elbow-app
+username: asalber
+account: asalber
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11554109
+bundleId: 8400905
+url: https://asalber.shinyapps.io/tennis-elbow-app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
